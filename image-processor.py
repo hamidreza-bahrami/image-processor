@@ -20,7 +20,7 @@ def blurer(img):
     return blur
 
 
-st.title('Image Processor \U0001F680')
+st.title('Image Processor')
 st.header('Upload Your Image And I will Do Some Magic')
 
 image = st.file_uploader('Upload Your Image', type=['png', 'jpg', 'jpeg'])
